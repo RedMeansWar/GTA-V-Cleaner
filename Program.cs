@@ -10,6 +10,9 @@ namespace GTA_V_Cleaner
     internal class Program
     {
         #region Variables
+        protected static readonly string EXE_NAME = "GTA V Cleaner.exe";
+        protected static int itemsMoved, folderSkipped;
+
         // List of all default GTA V files
         protected static readonly List<string> FILES_TO_SKIP = new()
         {
@@ -24,9 +27,6 @@ namespace GTA_V_Cleaner
         {
             "Installers", "Redistributables", "update", "x64", "modded"
         };
-
-        protected static readonly string EXE_NAME = "GTA V Cleaner.exe";
-        protected static int itemsMoved, folderSkipped;
         #endregion
 
         #region Constructor
