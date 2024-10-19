@@ -25,7 +25,7 @@ namespace GTA_V_Cleaner
         // List of all default GTA V folders
         protected static readonly List<string> FOLDERS_TO_SKIP = new()
         {
-            "Installers", "Redistributables", "update", "x64", "modded"
+            "Installers", "Redistributables", "update", "x64", "modded", "BattlEye"
         };
         #endregion
 
